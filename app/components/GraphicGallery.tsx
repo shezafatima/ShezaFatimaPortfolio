@@ -21,6 +21,7 @@ const artProjects = [
   { title: "Social Media Post", image: "/images/gp13.png" },
   { title: "Social Media Post", image: "/images/gp14.png" },
   { title: "Social Media Post", image: "/images/gp15.png" },
+  { title: "Social Media Post", image: "/images/gp16.png" },
 ]
 
 export default function GraphicGallery() {
