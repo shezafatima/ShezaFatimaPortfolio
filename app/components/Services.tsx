@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Conatainer from "./Container";
 import MotionWrapper from "./MotionWrapper";
-import { div } from "framer-motion/client";
+
 
 export default function Services() {
   return (
