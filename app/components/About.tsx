@@ -26,26 +26,19 @@ const About = () => {
                 tools, or scaling brands with precision — I’m here to design
                 with intent and build with impact. Let’s shape what’s next.
               </p>
-              {/* <div className="flex justify-center">
-                <Link
-                  href="https://static-resume-sh.netlify.app/"
-                  target="_blank"
-                >
-                  <button className="inline-flex text-white  bg-purple-800  py-2 px-6 border font-semibold focus:outline-none hover:bg-white hover:border-purple-800 hover:text-purple-800 rounded text-lg">
-                    View Resume
-                  </button>
-                </Link>
-              </div> */}
+              
             </div>
-            <div className="-mt-52">
-             <Image
-            src="/images/sheza.png" 
-            alt="Sheza Fatima"
-            width={500}
-            height={500}
-            className=" md:w-96 w-64 "
-          />
-            </div>
+            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <Image
+              className="object-cover object-center rounded sm:w-[450px]"
+              src="/images/about.png"
+              alt="about"
+              width={500}
+              height={500}
+            />
+          </div>
+
+            
           </div>
         </section>
       </MotionWrapper>
