@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
+import { useState, useEffect } from 'react'
 
 type Project = {
   title: string
@@ -13,6 +14,22 @@ type Project = {
 }
 
 export default function PythonProjectCard({ title, description, image, link, index }: Project) {
+  const [isMobile, setIsMobile] = useState(false);
+  const [showOverlay, setShowOverlay] = useState(false);
+
+  useEffect(() => {
+    const checkScreen = () => setIsMobile(window.innerWidth < 768);
+    checkScreen();
+    window.addEventListener('resize', checkScreen);
+    return () => window.removeEventListener('resize', checkScreen);
+  }, []);
+
+  const handleToggleOverlay = () => {
+    if (isMobile) {
+      setShowOverlay((prev) => !prev);
+    }
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -21,7 +38,10 @@ export default function PythonProjectCard({ title, description, image, link, ind
       viewport={{ once: true }}
       className="p-4 md:w-1/3 w-full"
     >
-      <div className="relative group overflow-hidden rounded-xl shadow-lg">
+      <div
+        className="relative group overflow-hidden rounded-xl shadow-lg cursor-pointer"
+        onClick={handleToggleOverlay}
+      >
         <Image
           src={image}
           alt={title}
@@ -30,7 +50,10 @@ export default function PythonProjectCard({ title, description, image, link, ind
           className="object-cover object-center w-full h-64 transition-transform duration-300 group-hover:scale-105"
         />
 
-        <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 text-center p-4">
+        <div
+          className={`absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center text-center p-4 transition duration-300 
+          ${showOverlay ? 'opacity-100' : 'opacity-0'} md:opacity-0 md:group-hover:opacity-100`}
+        >
           <h2 className="text-xl font-bold text-white mb-2">{title}</h2>
           <p className="text-sm mb-4 text-purple-200">{description}</p>
           <Link
@@ -43,5 +66,5 @@ export default function PythonProjectCard({ title, description, image, link, ind
         </div>
       </div>
     </motion.div>
-  )
+  );
 }

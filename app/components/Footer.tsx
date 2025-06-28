@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className="bg-[#160D23] text-white py-10">
       <Conatainer>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Left: Logo & Description */}
+          
           <div>
             <h1 className="text-2xl font-bold">Sheza Fatima</h1>
             <p className="text-sm mt-2 leading-relaxed text-white">
@@ -22,34 +22,34 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Spacer (hidden on mobile, fills middle column on large screens) */}
+          
           <div className="hidden lg:block"></div>
 
-          {/* Right: Quick Links + Socials */}
+          
           <div className="grid grid-cols-2  gap-28 items-start lg:items-end text-sm">
             {/* Quick Links */}
             <div className="flex flex-col gap-1 items-start lg:items-end">
               <h2 className="font-semibold text-lg mb-2">Quick Links</h2>
               <Link
-                href="#"
+                href="/"
+                className="text-white text-sm hover:text-[#B584DF] transition duration-300 ease-in-out hover:transform hover:translate-y-0.5 inline-block"
+              >
+                Home
+              </Link>
+              <Link
+                href="/#about"
                 className="text-white text-sm hover:text-[#B584DF] transition duration-300 ease-in-out hover:transform hover:translate-y-0.5 inline-block"
               >
                 About
               </Link>
               <Link
-                href="#"
+                href="/#projects"
                 className="text-white text-sm hover:text-[#B584DF] transition duration-300 ease-in-out hover:transform hover:translate-y-0.5 inline-block"
               >
                 Recent works
               </Link>
               <Link
-                href="#"
-                className="text-white text-sm hover:text-[#B584DF] transition duration-300 ease-in-out hover:transform hover:translate-y-0.5 inline-block"
-              >
-                Services
-              </Link>
-              <Link
-                href="#"
+                href="/#contact"
                 className="text-white text-sm hover:text-[#B584DF] transition duration-300 ease-in-out hover:transform hover:translate-y-0.5 inline-block"
               >
                 Contact
