@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://shezafatima.netlify.app/
+
+# Sitemaps
+Sitemap: https://shezafatima.netlify.app/sitemap.xml
