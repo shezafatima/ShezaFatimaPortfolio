@@ -45,6 +45,18 @@ const projects = [
     image: "/images/web5.png",
     link: "https://burger-website-shezafatima.netlify.app/",
   },
+    {
+    title: "Haris Packages",
+    category: "Manufacturer & Importer of Plastic Products",
+    image: "/images/web7.png",
+    link: "https://haris-packages.netlify.app/",
+  },
+    {
+    title: " Physical AI & Humanoid Robotics Book Hackathon",
+    category: "physical AI and humanoid robotics book hackathon",
+    image: "/images/web6.png",
+    link: "https://shezafatima.github.io/Physical-AI-and-Human-robotics-book-hackathon/",
+  },
   {
     title: "Python Projects",
     category: "Python Projects",
