@@ -52,8 +52,8 @@ const projects = [
     link: "https://haris-packages.netlify.app/",
   },
     {
-    title: " Physical AI & Humanoid Robotics Book Hackathon",
-    category: "physical AI and humanoid robotics book hackathon",
+    title: " Physical AI & Humanoid Robotics",
+    category: "Book hackathon",
     image: "/images/web6.png",
     link: "https://shezafatima.github.io/Physical-AI-and-Human-robotics-book-hackathon/",
   },
