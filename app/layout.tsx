@@ -15,7 +15,7 @@ const redHat = Red_Hat_Display({
 export const metadata: Metadata = {
   title: "Sheza Fatima",
   description: "My Portfolio",
-  keywords: ["sheza fatima","shezafatima", "portfolio", "website", "fullstack developer", "AI developer", "graphic designer", "projects", "services "],
+  keywords: ["sheza fatima","shezafatima", "portfolio",  "fullstack developer", "AI developer"],
 };
 
 export default function RootLayout({
