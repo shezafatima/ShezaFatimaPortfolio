@@ -3,6 +3,7 @@ import { Red_Hat_Display } from "next/font/google";
 import "./globals.css";
 import Conatainer from "./components/Container";
 import Navbar from "./components/Navbar";
+import ChatBot from "@/app/components/ChatBot";
 
 const redHat = Red_Hat_Display({
   weight: ["400", "500", "600", "700","800", "900"],
@@ -14,7 +15,7 @@ const redHat = Red_Hat_Display({
 export const metadata: Metadata = {
   title: "Sheza Fatima",
   description: "My Portfolio",
-  keywords: ["sheza fatima", "portfolio", "website", "frontend"],
+  keywords: ["sheza fatima","shezafatima", "portfolio", "website", "fullstack developer", "AI developer", "graphic designer", "projects", "services "],
 };
 
 export default function RootLayout({
@@ -33,9 +34,10 @@ export default function RootLayout({
         <Conatainer>
           <Navbar/>
 
-          
+
         </Conatainer>
         {children}
+        <ChatBot />
       </body>
     </html>
   );

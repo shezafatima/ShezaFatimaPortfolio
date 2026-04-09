@@ -5,6 +5,25 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #B584DF, #DB6DFF);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #C99AE8, #E580FF);
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {

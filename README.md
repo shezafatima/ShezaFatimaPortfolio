@@ -20,6 +20,27 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## AI Chatbot Setup
+
+This portfolio includes an AI chatbot powered by Groq API. To enable the chatbot:
+
+1. **Get a Groq API Key**
+   - Sign up at [Groq Console](https://console.groq.com/)
+   - Create a new API key
+
+2. **Configure Environment Variables**
+   - Create a `.env.local` file in the project root
+   - Add your Groq API key:
+   ```env
+   GROQ_API_KEY=your_groq_api_key_here
+   ```
+
+3. **Customize Portfolio Data** (Optional)
+   - Edit `lib/portfolio-data.ts` to update the information the chatbot uses
+   - Update bio, skills, projects, services, and social links
+
+The chatbot will appear as a floating button in the bottom-right corner of the portfolio and uses your portfolio data to answer visitor questions.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

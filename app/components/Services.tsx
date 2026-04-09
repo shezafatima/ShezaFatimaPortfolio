@@ -60,8 +60,8 @@ export default function Services() {
 
 const services = [
   {
-    title: "Frontend (Next.js) Developer",
-    desc: "Responsive, scalable and fast-loading websites using modern frontend frameworks.",
+   title: "Full Stack & AI Developer",
+   desc: "Developing scalable, production-ready web applications integrated with AI-driven features, leveraging modern technologies and efficient architecture.",
     icon: "💻",
     bg: "bg-blue-600",
   },
