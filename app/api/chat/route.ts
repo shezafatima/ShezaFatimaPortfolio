@@ -61,7 +61,7 @@ export async function POST(req: Request) {
 
     if (!GROQ_API_KEY) {
       return NextResponse.json(
-        { error: 'Groq API key not configured' },
+        { error: 'Something went wrong' },
         { status: 500 }
       )
     }
