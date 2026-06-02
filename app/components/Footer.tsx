@@ -3,6 +3,7 @@ import Conatainer from "./Container";
 import {
   BsFacebook,
   BsInstagram,
+  BsYoutube,
   BsLinkedin,
   BsGithub,
 } from "react-icons/bs";
@@ -61,21 +62,29 @@ export default function Footer() {
               <div className="flex flex-wrap justify-center lg:justify-end gap-4 text-xl">
                 <Link
                   target="_blank"
-                  href="https://www.linkedin.com/in/sheza-fatima-437b17333/"
+                  href="https://www.linkedin.com/in/sheza-fatima-78894830b"
                   className=" transition duration-300 ease-in-out hover:transform hover:translate-y-0.5 inline-block"
                 >
                   <BsLinkedin />
                 </Link>
                 <Link
                   target="_blank"
-                  href="https://www.instagram.com/1824digital_sf?igsh=ZGUzMzM3NWJiOQ=="
+                  href="https://www.instagram.com/devwithsheza/"
                   className=" transition duration-300 ease-in-out hover:transform hover:translate-y-0.5 inline-block"
                 >
                   <BsInstagram />
                 </Link>
                 <Link
                   target="_blank"
-                  href="https://www.facebook.com/profile.php?id=61566351903578&mibextid=ZbWKwL"
+                  href="https://www.youtube.com/@devwithsheza"
+                  className=" transition duration-300 ease-in-out hover:transform hover:translate-y-0.5 inline-block"
+                >
+                  <BsYoutube />
+                </Link>
+               
+                <Link
+                  target="_blank"
+                  href="https://www.facebook.com/sheza.fatima.755487"
                   className=" transition duration-300 ease-in-out hover:transform hover:translate-y-0.5 inline-block"
                 >
                   <BsFacebook />
