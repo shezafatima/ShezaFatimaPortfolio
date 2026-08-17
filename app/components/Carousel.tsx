@@ -61,7 +61,7 @@ const projects = [
     title: "DeepSeek Clone ",
     category: "clone of a deepseek website",
     image: "/images/web8.png",
-    link: "https://shezafatima.github.io/Physical-AI-and-Human-robotics-book-hackathon/",
+    link: "https://deepseek-cloned.vercel.app/",
   },
   {
     title: "Python Projects",

@@ -78,7 +78,7 @@ const services = [
     bg: "bg-green-600",
   },
   {
-    title: "Social Media Managing",
+    title: "Content Creation",
     desc: "Strategy, content, and analytics to grow and manage your brand's social media.",
     icon: "📱",
     bg: "bg-pink-600",
