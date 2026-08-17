@@ -57,6 +57,12 @@ const projects = [
     image: "/images/web6.png",
     link: "https://shezafatima.github.io/Physical-AI-and-Human-robotics-book-hackathon/",
   },
+   {
+    title: "DeepSeek Clone ",
+    category: "clone of a deepseek website",
+    image: "/images/web8.png",
+    link: "https://shezafatima.github.io/Physical-AI-and-Human-robotics-book-hackathon/",
+  },
   {
     title: "Python Projects",
     category: "Python Projects",
