@@ -4,6 +4,7 @@ import "./globals.css";
 import Conatainer from "./components/Container";
 import Navbar from "./components/Navbar";
 import ChatBot from "@/app/components/ChatBot";
+import LoaderWrapper from "./components/LoaderWrapper";
 
 const redHat = Red_Hat_Display({
   weight: ["400", "500", "600", "700","800", "900"],
@@ -31,13 +32,13 @@ export default function RootLayout({
       <body
         className={`${redHat.className}  antialiased bg-[#0D031C]`}
       >
-        <Conatainer>
-          <Navbar/>
-
-
-        </Conatainer>
-        {children}
-        <ChatBot />
+        <LoaderWrapper>
+          <Conatainer>
+            <Navbar/>
+          </Conatainer>
+          {children}
+          <ChatBot />
+        </LoaderWrapper>
       </body>
     </html>
   );
