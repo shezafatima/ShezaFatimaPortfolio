@@ -10,15 +10,18 @@ import Skills from "./components/Skills";
 
 export default function Home() {
   return (
-<div >
-      <Hero/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Services/>
-      <Contact/>
-      <Footer/>
-      <ScrollToTop/>
-    </div>
+    <>
+      
+      <div>
+        <Hero/>
+        <About/>
+        <Skills/>
+        <Projects/>
+        <Services/>
+        <Contact/>
+        <Footer/>
+        <ScrollToTop/>
+      </div>
+    </>
   );
 }
