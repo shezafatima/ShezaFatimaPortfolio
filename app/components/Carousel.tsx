@@ -49,7 +49,7 @@ const projects = [
     title: "Haris Packages",
     category: "Manufacturer & Importer of Plastic Products",
     image: "/images/web7.png",
-    link: "https://haris-packages.netlify.app/",
+    link: "https://hpackages.netlify.app/",
   },
     {
     title: " Physical AI & Humanoid Robotics",
