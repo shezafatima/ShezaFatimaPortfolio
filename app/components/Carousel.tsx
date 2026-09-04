@@ -64,6 +64,12 @@ const projects = [
     link: "https://deepseek-cloned.vercel.app/",
   },
   {
+    title: "Full Stack ToDo App",
+    category: "Responsive Todo App with a sleek purple gradient UI.",
+    image: "/images/web9.png",
+    link: "https://advanced-to-do-phi.vercel.app/",
+  },
+  {
     title: "Python Projects",
     category: "Python Projects",
     image: "/images/pythonprojects.png",
