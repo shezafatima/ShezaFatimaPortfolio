@@ -65,7 +65,7 @@ const projects = [
   },
   {
     title: "Full Stack ToDo App",
-    category: "Responsive Todo App with a sleek purple gradient UI.",
+    category: "Responsive Todo App",
     image: "/images/web9.png",
     link: "https://advanced-to-do-phi.vercel.app/",
   },
