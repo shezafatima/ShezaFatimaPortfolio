@@ -64,6 +64,12 @@ const projects = [
     link: "https://deepseek-cloned.vercel.app/",
   },
   {
+    title: "Soft N Sweet ",
+    category: "Modern bakery website",
+    image: "/images/web10.png",
+    link: "https://softnsweet.netlify.app/",
+  },
+  {
     title: "Full Stack ToDo App",
     category: "Responsive Todo App",
     image: "/images/web9.png",
