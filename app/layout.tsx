@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="H5qgmcTFePehCqbkMQ9opTvWyuVvkFCtmDLwVjYvwjg" />
+        <meta name="google-site-verification" content="EvRWGZGw5PPmbFHF-oTInDfxdztnPohBZBXWbFZFcfY" />
       </head>
       <body
         className={`${redHat.className}  antialiased bg-[#0D031C]`}
