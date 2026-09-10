@@ -1,6 +1,6 @@
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://shezafatima.netlify.app/", 
+  siteUrl: "https://sheza-fatima.vercel.app/", 
   generateRobotsTxt: true, 
 };
